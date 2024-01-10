@@ -1,0 +1,435 @@
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  color: #00204A;
+	
+}
+body , html {
+  overflow-x: hidden;  /*remove horizontal scroll*/
+}
+
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+.navbar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 97%;
+  justify-content: space-between;
+  padding: 0px;
+  color: whitesmoke;
+
+}
+
+ img{
+  width: 250px;
+  height: 250px;
+  left: 10px;
+}
+
+
+.nav-links{
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+  font-weight: bold;
+  margin-right: 20px;
+  margin-top: 0px;
+  margin-bottom: 80px;
+}
+.nav-links li a{
+  margin:  20px;
+  color: whitesmoke;
+}
+
+
+.nav-links li a{
+  text-decoration: none;
+  color:#ffb31a;
+  font-family: Arial; 
+ }
+
+.nav-links li a:hover{
+  color: #fff;
+}
+
+ .navbar .logo{
+  font-size: 50px;
+  height: 20vh;
+  width: 40vh;
+  margin-left: 40px;
+  color: #00ff99;
+  font-weight: bolder;
+ }
+
+header{ 
+  width:100vw ;
+  height:100vh ;
+  background-image: url("Images/wall4.jpg");
+  background-position: bottom;
+  background-size: cover;
+  display:;
+  align-items: flex-end;
+  justify-content: left;
+ }
+
+.header-content{
+   margin-bottom: -30px;
+   color:#fff;
+   text-align: center;
+   margin-left: px;
+   padding-top: 50px;
+   padding-left: px;
+   padding-bottom: 0px;
+}
+.header-content h2{
+  font-size: 6vmin;
+  padding-left: 0px;
+  margin-bottom: 9px;
+  margin-left:0;
+  margin-top: 9%;
+}
+.ctn{
+  padding:2px 15px ;
+  background: #000;
+  border-radius: 25px;
+  color: whitesmoke;
+
+}
+
+section{
+  width:80% ;
+  margin: 80px auto;
+}
+
+.title{
+  text-align: center;
+  font-size: 3vmin;
+  color: #000;
+}
+
+.line{
+  width: 100px;
+  height: 4px;
+  background:#52575d;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content:space-between ;
+
+}
+ 
+.row .col img{
+  width: 400px;
+  height: 300px;
+}
+.row .col {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.title .row{
+  margin-top: 50px;
+  margin-right: 100px;
+}
+
+.col h4{
+  font-size: 3vmin;
+  color: #484872;
+  margin: 20px auto;
+}
+
+.col p{
+  color: #7c7c7c;
+  padding:  0px 40px;
+  font-size: 2vmin;
+}
+/*-------------------Life on two wheels-------------*/
+
+.quote .row1{
+  align-items: center;
+  display: flex;
+}
+.quote .row1 .quote-abt h1{
+  font-size: 5vmin;
+  text-align: center;
+  color: #000;
+}
+
+.quote-abt p{
+  color: #7c7c7c;
+  padding:  10px 40px;
+  font-size: 2vmin;
+  text-align: justify;
+}
+
+ 
+.quote-abt{
+  width: 50%;
+  align-items: center;
+  margin-bottom: 90px;
+  margin-left: 30px;
+}
+
+.quote-image{
+  width: 60%;
+}
+
+.quote-image img{
+ width: 500px;
+ height: 400px;
+}
+
+.quote-image{
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.quote-image{
+  width: 500px;
+  height: 400px;
+margin-left: 100px;
+}
+
+
+
+
+
+/*-------------------About-------------------*/
+.about .row{
+  align-items: center;
+}
+.about .row .col-abt h1{
+  font-size: 5vmin;
+  text-align: center;
+  color: #000;
+}
+
+.col-abt p{
+  color: #7c7c7c;
+  padding:  10px 20px;
+  font-size: 2vmin;
+  text-align: justify;
+}
+
+ 
+.col-abt{
+  width: 40%;
+  align-items: center;
+  margin-bottom: 90px;
+  margin-left: 90px;
+}
+
+.col-image{
+  width: 60%;
+}
+
+.col-image img{
+ width: 600px;
+ height: 400px;
+}
+
+.col-image{
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.col-image{
+  width: 500px;
+  height: 400px;
+  margin-right: 100px;
+}
+
+.footer{
+  background-color:#24262b;
+  padding: 50px 0px;
+}
+
+.container{
+  max-width: 1170px;
+  margin: auto;
+}
+.container table {
+  color: #ffffff;
+  width: 1250px;
+  height: 130px;
+  padding-left: 30px;
+  text-align: justify;
+}
+
+.container table th {
+  font-size: 18px;
+  color: #ffb423;
+  height: 60px;
+  position: relative;
+}
+
+.container table tr {
+   font-size: 14px;
+   color: #bbbbbb;
+
+}
+
+.container table tr a {
+   color: #bbbbbb;
+   display: block;  
+}
+
+
+
+/*login*/
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  color: #0F225C;
+}
+
+.log {
+  height: 35vh;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.form{
+  margin-left: 460px;
+  margin-bottom: 200px;
+  margin-top: px;
+  padding-bottom: 10px;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  padding: 10px;
+  background-color: rgba(204, 204, 204, 0.5);
+  border-radius: 10px;
+  border: 2px solid #363940;
+}
+
+p {
+  margin: 0;
+}
+
+
+.form button {
+  width: 280px;
+  padding: 5px;
+  margin: 5px auto;
+  box-sizing: border-box;
+  font-size: 17px;
+  outline: none;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.5);
+  outline: 2px solid #363940;
+}
+
+
+
+.form input{
+  width: 280px;
+  padding: 5px;
+  margin: 5px auto;
+  box-sizing: border-box;
+  font-size: 17px;
+  outline: none;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.5);
+  outline: 2px solid #363940;
+}
+
+.form button {
+  /* border-bottom: 5px solid #555; */
+  border-radius: 10px;
+}
+
+
+.form button {
+  background-color: #000;
+  cursor: pointer;
+}
+
+.pass {
+  font-size: 15px;
+  text-align: left;
+  cursor: pointer;
+}
+ .pass a{
+  text-decoration: none;
+  color:#163A5F;
+  font-family: Arial;
+  
+ }
+
+.Sig {
+font-size: 15px;
+text-align: left;
+cursor: pointer;
+margin-bottom: 5px;
+
+}
+
+ .Sig a{
+  text-decoration: none;
+  color:#163A5F;
+  font-family: Arial;
+  
+ }
+.fontawesome-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.fontawesome-area i {
+  margin-top: 10px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.icon {
+  margin: 10px;
+}
+
+.pass a:hover{
+  color: #000;
+}
+.Sig a:hover{
+  color: #000;
+}
+
+
